@@ -1,0 +1,38 @@
+a) Description:
+This supplementary material contains Matlab implementation of the salient region detection approach presented in this letter.
+This prototype implementation also contains Matlab codes for faster variants of the proposed approach.
+
+b) Size:
+The total size of all objects in this multimedia material is 228 Kilobytes.
+
+c) Platform:
+This Matlab implementation is tested on Windows platform.
+
+d) Environment:
+This implementation is tested on Matlab 2013b on both 32-bit and 64-bit versions on Windows 7 operating system.
+
+e) Major Component Description:
+The directory "Input" contains 8 sample images from MSRA-1000 dataset.
+The directory "Slic" contains C++ implementation of "Slic Superpixels" method and its corresponding compiled Mex files.
+The directory "Output" is used to store the output saliency maps.
+The Matlab files run_demo.m in the current directory is used to run the proposed approach PR.
+The Matlab files run_PFR.m, run_FPR.m, and run_FPFR.m in the current directory are used to run 
+the faster variants of the proposed approach PFR, FPR and FPFR correspondingly.
+Rest of the Matlab functions in the current directory contain code for patch segmentation, region segmentation, saliency estimation, etc.
+
+f) Detailed Set-up Instructions:
+First, set the Matlab current folder into the current directory that contain this Matlab implementation (or add the current directory to the Matlab path).
+Copy your images (in JPG, PNG or BMP format) into the directory "Input". (Note: the directory already contains 8 sample images from MSRA-1000 dataset)
+
+g) Detailed Run Instructions:
+To run the proposed salient region detection approach PR, please run the Matlab code "run_demo.m".
+To run the faster variants of the proposed approaches PFR, FPR and FPFR, please run the corresponding Matlab codes run_PFR.m, run_FPR.m, and run_FPFR.m.
+
+h) Output Description:
+The generated saliency maps can be found in the directory "Output" as PNG images.
+The end of file name of an output saliency map image will contain the method that was used to generate it (Ex. image1_PR.png, image2_FPFR.png).
+
+i) Contact Information:
+For any questions regarding the usage of this supplementary material, please contact Sridhar Swaminathan (E-mail: sridarah@gmail.com)
+
+Thank you.
